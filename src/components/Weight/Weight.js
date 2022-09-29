@@ -6,7 +6,7 @@ const Weight = () => {
     <div>
       <div className='weight'>
         <div className='info'>
-          <h4>65 KG</h4>
+          <h4>65 </h4>
           <p>Weight</p>
         </div>
         <div className='info'>

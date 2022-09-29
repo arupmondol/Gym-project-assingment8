@@ -3,7 +3,9 @@ import {faLocation } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import Weight from '../Weight/Weight';
 import './Cart.css'
-
+import Toast from '../../Toast/Toast';
+// import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
+// 
 const Cart = (props) => {
 
   const {cart} =props;
@@ -27,16 +29,25 @@ const Cart = (props) => {
        <Weight></Weight>
       </div>
       <div>
+        <h2>Take Break</h2>
+        <div className='number-button'>
+        <div><button className='btn-number'>10s</button></div>
+        <div><button className='btn-number'>20s</button></div>
+        <div><button className='btn-number'>30s</button></div>
+        <div><button className='btn-number'>40s</button></div>
+        <div><button className='btn-number' >50s</button></div> 
+        </div>
 
       </div>
       <div className='detail'>
         <h3>Exercise Details</h3>
-        <p className='exercise-time'>Exercise time: <small className='total-time'>{totalTime}s</small></p>
+        <p className='exercise-time'>Exercise time: <small className='total-time'><strong>{totalTime}s</strong></small></p>
        </div>
       <div className='detail'>
        <p className='exercise-time'>Break time: <small className='total-time'>0s</small></p>
       </div>
-        <button className='work-out-btn'>Workout Finished</button>
+        
+        <Toast></Toast>
     </div>
   );
 };

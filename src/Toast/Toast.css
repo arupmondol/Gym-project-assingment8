@@ -1,0 +1,11 @@
+.work-out-btn1{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  background-color: rgb(202, 99, 99);
+  border-radius: 20px;
+  }
+  .work-out-btn1:hover{
+    background-color: rgb(227, 63, 8);
+  }

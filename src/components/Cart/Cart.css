@@ -1,5 +1,5 @@
 .cart{
-  background-color: blanchedalmond;
+  background-color: rgb(225, 193, 144);
   color: black;
 }
 .personal-photo{
@@ -41,4 +41,28 @@ border-radius: 20px;
 }
 .total-time{
  margin-left: 30px;
+}
+.number-button{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(42, 105, 105);
+  padding: 20px;
+
+  border-radius: 10px;
+  margin-left: 6px;
+  
+}
+
+.btn-number{
+  background-color: bisque;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 20%;
+  border: none;
+}
+
+.btn-number:hover{
+  background-color: rgb(212, 88, 88);
+  color: aliceblue;
+  box-shadow: 3px rgb(46, 39, 39);
 }

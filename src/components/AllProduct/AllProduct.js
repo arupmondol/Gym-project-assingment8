@@ -4,7 +4,9 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './AllProduct.css'
-
+import Blog from '../Blog/Blog';
+// import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
+// 
 const AllProduct = () => {
   const [products, setProduct] =useState([])
   const [cart, setCart] =useState([])
@@ -18,6 +20,8 @@ const AllProduct = () => {
    setCart(newCart)
    }
   return (
+
+    <div>
     <div className='all-Product'>
       <div>
         <div  className='main-heading'>
@@ -38,6 +42,8 @@ const AllProduct = () => {
       <div className="cart-container">
         <Cart cart={cart}></Cart>
       </div>
+    </div>
+    <Blog></Blog>
     </div>
   );
 };
