@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLocation } from '@fortawesome/free-solid-svg-icons';
-import React from 'react';
+import React, { useState } from 'react';
 import Weight from '../Weight/Weight';
 import './Cart.css'
 import Toast from '../../Toast/Toast';
@@ -13,6 +13,10 @@ const Cart = (props) => {
   let totalTime = 0;
   for(const product of cart){
     totalTime = totalTime + product.time
+  }
+  const [rest, setRest] = useState(0);
+  const addRestTime = (id) =>{
+    setRest(id)
   }
   return (
     <div className='cart'>
@@ -31,11 +35,11 @@ const Cart = (props) => {
       <div>
         <h2>Take Break</h2>
         <div className='number-button'>
-        <div><button className='btn-number'>10s</button></div>
-        <div><button className='btn-number'>20s</button></div>
-        <div><button className='btn-number'>30s</button></div>
-        <div><button className='btn-number'>40s</button></div>
-        <div><button className='btn-number' >50s</button></div> 
+        <div><button onClick={()=>addRestTime(10)} className='btn-number'>10s</button></div>
+        <div><button onClick={()=>addRestTime(20)} className='btn-number'>20s</button></div>
+        <div><button onClick={()=>addRestTime(30)} className='btn-number'>30s</button></div>
+        <div><button onClick={()=>addRestTime(40)} className='btn-number'>40s</button></div>
+        <div><button onClick={()=>addRestTime(50)} className='btn-number' >50s</button></div> 
         </div>
 
       </div>
@@ -44,7 +48,7 @@ const Cart = (props) => {
         <p className='exercise-time'>Exercise time: <small className='total-time'><strong>{totalTime}s</strong></small></p>
        </div>
       <div className='detail'>
-       <p className='exercise-time'>Break time: <small className='total-time'>0s</small></p>
+       <p className='exercise-time'>Break time: <small className='total-time'>{rest}s</small></p>
       </div>
         
         <Toast></Toast>
