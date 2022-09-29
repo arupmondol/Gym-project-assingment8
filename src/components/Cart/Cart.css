@@ -1,0 +1,44 @@
+.cart{
+  background-color: blanchedalmond;
+  color: black;
+}
+.personal-photo{
+  width: 60px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.personal-info{
+  display: flex;
+}
+.address{
+  padding-top: -40px;
+}
+.name{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.work-out-btn{
+width: 80%;
+height: 40px;
+margin-left: 10%;
+margin-bottom: 10px;
+background-color: rgb(202, 99, 99);
+border-radius: 20px;
+}
+.work-out-btn:hover{
+  background-color: rgb(227, 63, 8);
+}
+.detail{
+  margin-left: 10px;
+}
+.exercise-time{
+  padding: 30px;
+  background-color: rgb(171, 171, 124);
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.total-time{
+ margin-left: 30px;
+}

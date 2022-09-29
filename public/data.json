@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man",
+    "name": "PLUNK",
+    "time":30,
+    "break": 10,
+    "age": "20-35",
+    "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg"
+   
+   
+  },
+
+  {
+    "id": "2af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man",
+    "name": "WEIGHT LIFTING",
+    "time":40,
+    "break": 20,
+    "age": "20-40",
+    "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+
+  {
+    "id": "3af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man",
+    "name": "YOGA",
+    "time":50,
+    "break": 30,
+    "age": "20-40",
+    "img": "https://images.pexels.com/photos/3900844/pexels-photo-3900844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+
+  {
+    "id": "4af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man",
+    "name": "RUNNING",
+    "time":20,
+    "break": 40,
+    "age": "20-40",
+    "img": "https://images.pexels.com/photos/5039659/pexels-photo-5039659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  
+  
+  },
+
+  {
+    "id": "5af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man",
+    "name": "ROOP LIFTING",
+    "time":30,
+    "break":50,
+    "age": "20-40",
+    "img": "https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+   
+   
+  },
+
+  {
+    "id": "6af",
+    "text": "A man can do change his destony by hard work. Fitness is the key of succes. A healthy fit man is happy then a rich man. ",
+    "name": "STREACHING",
+    "time":40,
+    "break": 60,
+    "age": "20-40",
+    "img": "https://images.pexels.com/photos/3764396/pexels-photo-3764396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+   
+   
+  }
+
+
+]
