@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee,faDumbbell,faWifiStrong } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
@@ -19,7 +21,8 @@ const AllProduct = () => {
     <div className='all-Product'>
       <div>
         <div  className='main-heading'>
-       <h1>BE A BEAST</h1>
+        
+       <h1><FontAwesomeIcon icon={faDumbbell} ></FontAwesomeIcon>BE A BEAST</h1>
        <h3>Today's Exercise outine</h3>
        </div>
        

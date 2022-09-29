@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLocation } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import Weight from '../Weight/Weight';
 import './Cart.css'
@@ -18,14 +20,14 @@ const Cart = (props) => {
       </div>
       <div className='name'>
         <h2>Arup Mondal</h2>
-        <p className='address'>Dhaka, Bangladesh</p>
+        <p className='address'><FontAwesomeIcon icon={faLocation}></FontAwesomeIcon> Dhaka, Bangladesh</p>
       </div>
       </div>
       <div className='weight'>
        <Weight></Weight>
       </div>
       <div>
-        
+
       </div>
       <div className='detail'>
         <h3>Exercise Details</h3>
