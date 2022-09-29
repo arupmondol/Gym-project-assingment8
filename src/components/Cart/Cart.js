@@ -24,10 +24,16 @@ const Cart = (props) => {
       <div className='weight'>
        <Weight></Weight>
       </div>
+      <div>
+        
+      </div>
       <div className='detail'>
         <h3>Exercise Details</h3>
         <p className='exercise-time'>Exercise time: <small className='total-time'>{totalTime}s</small></p>
        </div>
+      <div className='detail'>
+       <p className='exercise-time'>Break time: <small className='total-time'>0s</small></p>
+      </div>
         <button className='work-out-btn'>Workout Finished</button>
     </div>
   );
