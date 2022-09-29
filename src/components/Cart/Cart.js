@@ -19,7 +19,7 @@ const Cart = (props) => {
         <img src="photomy.PNG" className='personal-photo' alt="" />
       </div>
       <div className='name'>
-        <h2>Arup Mondal1</h2>
+        <h2>Arup Mondal</h2>
         <p className='address'><FontAwesomeIcon icon={faLocation}></FontAwesomeIcon> Dhaka, Bangladesh</p>
       </div>
       </div>
