@@ -27,7 +27,7 @@ const AllProduct = () => {
         <div  className='main-heading'>
         
        <h1><FontAwesomeIcon icon={faDumbbell} ></FontAwesomeIcon>BE A BEAST</h1>
-       <h3>Today's Exercis outine</h3>
+       <h3>Today's Exercise outine</h3>
        </div>
        
       <div className="product-container">
